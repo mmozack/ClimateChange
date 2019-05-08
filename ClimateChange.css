@@ -1,0 +1,84 @@
+header, main, nav, footer, section, figure, header{display: inline-block;}
+
+body 	{  background-image: url("background.jpg");
+		   background-image-color: rgba(255,255,255, 0.5);
+		   background-repeat: no-repeat;
+		   background-image-position: center;
+		   background-size: cover;
+		   background-color: rgba(255,255,255, 0.5);
+		   font-family: "Impact", Charcoal, sans-serif;
+		   }
+
+#wrap {background-color: rgba(255,255,255, 0.75);
+		margin: auto;
+		width: 100%;}
+
+
+
+
+header 	{	margin: auto;
+		   	
+			padding: 0px 0px 0px 0px;
+}
+
+h1		{   text-align: center;
+			float: left;
+			font-size: 3.0em;
+			width:100%;
+			padding: 10px, 10px, 10px, 10px;}
+
+nav  	{ 	
+			font-size: 2.0em; 
+		  	text-align: center;
+		  	float: left;
+		  	width: 20%;
+		  	list-style: none;
+		  
+		  } 
+
+nav a { 
+
+	 	padding-left: 0px;
+		padding-right: 50px;
+		text-align: center;
+		text-decoration: none;
+		list-style: none;  }
+
+main { float: right;
+		width: 80%; }
+
+
+h2		{ font-size: 2.5em; }
+
+
+#What { width: 80%;  
+		margin: auto;}
+
+#LongTermEffects {  width: 40%;
+					float: left;
+					margin-left: 10%; }
+
+#EffectsSeniors {   width: 40%;
+					float: right; 
+					margin-right: 10%;}
+
+#Help { width: 80%;
+		margin: auto; }
+
+
+p 		{ font-size: 2.0em;}
+
+ul	{ list-style-image: url(marker.gif);
+	  list-style-position: inside; 
+	  font-size: 2.0em;
+	}
+
+footer 	{ color: #000000; 
+		  font-size: 1.0em;
+		  text-align: right;
+		  font-style: italic;
+		  padding: 25px;
+		  }
+
+footer a { color: #FFFFFF; }
+
