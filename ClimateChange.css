@@ -1,15 +1,15 @@
 header, main, nav, footer, section, figure, header{display: inline-block;}
 
-body 	{  background-image: url("background.jpg");
-		   background-image-color: rgba(255,255,255, 0.5);
+body 	{  background-image: url("background.png");
+		   
 		   background-repeat: no-repeat;
 		   background-image-position: center;
 		   background-size: cover;
-		   background-color: rgba(255,255,255, 0.5);
+		   background-color: rgba(106, 173, 192, 0.5);
 		   font-family: "Impact", Charcoal, sans-serif;
 		   }
 
-#wrap {background-color: rgba(255,255,255, 0.75);
+#wrap {
 		margin: auto;
 		width: 100%;}
 
@@ -17,8 +17,9 @@ body 	{  background-image: url("background.jpg");
 
 
 header 	{	margin: auto;
-		   	
-			padding: 0px 0px 0px 0px;
+		   	float: left;
+		   	width: 100%;
+			padding: 10px 10px 10px 10px;
 }
 
 h1		{   text-align: center;
@@ -27,51 +28,66 @@ h1		{   text-align: center;
 			width:100%;
 			padding: 10px, 10px, 10px, 10px;}
 
-nav  	{ 	
+nav  	{ 	background-color: rgba(17, 70, 84, 0.5);
 			font-size: 2.0em; 
-		  	text-align: center;
+		  	text-align: left;
 		  	float: left;
-		  	width: 20%;
-		  	list-style: none;
-		  
+		  	width: 15%;
+		  	list-style-type: none;
+		  	height: 100%; 
 		  } 
 
 nav a { 
-
-	 	padding-left: 0px;
-		padding-right: 50px;
-		text-align: center;
+		color: rgb(220, 237, 255);
+		margin-bottom: 10px;
 		text-decoration: none;
-		list-style: none;  }
+		list-style-type: none;  }
 
 main { float: right;
-		width: 80%; }
+		width: 85%;
+		margin:auto; }
 
 
 h2		{ font-size: 2.5em; }
 
 
-#What { width: 80%;  
-		margin: auto;}
+#What { background-color: rgba(173, 192, 106, 0.7);
+		color: rgb(17, 70,84);
+		width: 80%;  
+		padding: 5px 5px 5px 5px;
+		margin-left:5%;
+		margin-bottom: 5%;}
 
-#LongTermEffects {  width: 40%;
+#LongTermEffects {  background-color: rgba(173, 192, 106, 0.7);
+					color: rgb(17, 70,84);
+					width: 37.5%;
 					float: left;
-					margin-left: 10%; }
+					margin-left: 5%;
+					padding: 5px 5px 5px 5px;
+					margin-bottom: 5%;
+					height: 400px; }
 
-#EffectsSeniors {   width: 40%;
+#EffectsSeniors {   background-color: rgba(173, 192, 106, 0.7);
+					color: rgb(17, 70, 84);
+					width: 37.5%;
 					float: right; 
-					margin-right: 10%;}
+					padding: 5px 5px 5px 5px;
+					margin-bottom: 5%;
+					margin-right: 15%;
+					height: 400px; }
 
-#Help { width: 80%;
-		margin: auto; }
+#Help { background-color: rgba(173, 192, 106, 0.7);
+		color: rgb(17, 70, 84);
+		padding: 5px 5px 5px 5px;
+		width: 80%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+		float: left;}
 
 
 p 		{ font-size: 2.0em;}
 
-ul	{ list-style-image: url(marker.gif);
-	  list-style-position: inside; 
-	  font-size: 2.0em;
-	}
+ul	{ list-style-type:none;}
 
 footer 	{ color: #000000; 
 		  font-size: 1.0em;
